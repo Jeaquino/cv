@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Tilt Neon", cursive;
+}
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://static.vecteezy.com/system/resources/previews/001/217/210/non_2x/binary-code-background-vector.jpg")
+      no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+:root {
+  --title: #4f7f3f;
+  --text: #4188ce;
+}
+.navigation {
+  background-color: #c4d7a9;
+  color: white;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.title img {
+  border-radius: 50%;
+  width: 100%;
+  padding: 5px;
+  border: 2px #c4d7a9;
+  border-style: hidden double dashed;
+}
+
+#name {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: #7272ec;
+}
+
+.links svg {
+  padding: 5px;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bio ul {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-around;
+}
+
+.bio ul li {
+  background-color: #a9ee91;
+  border-radius: 50%;
+  padding: 10px;
+}
+.bio ul li img {
+  width: 20px;
+}
+
+.bio ul li:hover {
+    background-color: #f2f53e;
+}
+
+.icons {
+  width: 90%;
+  padding: 10px;
+}
+
+
+.info {
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#property {
+  padding: 5px;
+  font-size: 15px;
+  justify-content: center;
+}
+
+#data {
+  font-size: 25px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .title {
+    padding: 15px;
+    justify-content: space-around;
+  }
+
+  #name {
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .icons {
+    padding: 30px;
+  }
+  .bio ul li img {
+    width: 40px;
+  }
+
+  #property {
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  #data {
+    font-size: 35px;
+  }
+}
+/*DESKTOP*/
+@media (min-width: 1024px) {
+  .links svg {
+    padding: 0px;
+  }
+
+  .links {
+    font-size: 25px;
+  }
+
+  .title {
+    padding: 15px;
+  }
+
+  #name {
+    padding: 10px;
+    font-size: 50px;
+  }
+
+  .icons {
+    padding: 30px;
+  }
+  .bio ul li img {
+    width: 60px;
+  }
+
+  #property {
+    font-size: 35px;
+  }
+
+  #data {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1440px) {
+  
+    .links {
+      font-size: 40px;
+    }
+
+    .links svg {
+        transform: scale(2);
+        margin: 20px ;
+    }
+  
+    .title {
+      padding: 100px;
+      justify-content: space-between;
+    }
+
+    .title img {
+        padding: 10px;
+        width: 150%;
+        border: 10px #c4d7a9;
+        border-style: hidden double dashed;
+      }
+  
+    #name {
+      padding: 10px;
+      font-size: 65px;
+    }
+  
+    .icons {
+      padding: 30px;
+    }
+    .bio ul li img {
+      width: 75px;
+    }
+  
+    #property {
+      font-size: 45px;
+    }
+  
+    #data {
+      font-size: 55px;
+    }
+  }
+
+  @media (min-width: 2560px) {
+  
+    .links {
+      font-size: 60px;
+    }
+
+    .links svg {
+        transform: scale(3);
+        margin: 40px ;
+    }
+  
+    .title {
+      padding: 100px;
+    }
+
+    .title img {
+        padding: 10px;
+        width: 300%;
+        border: 20px #c4d7a9;
+        border-style: hidden double dashed;
+      }
+  
+    #name {
+      padding: 10px;
+      font-size: 100px;
+    }
+  
+    .icons {
+      padding: 80px;
+    }
+    .bio ul li img {
+      width: 180px;
+      padding: 20px;
+    }
+  
+    #property {
+      font-size: 65px;
+    }
+  
+    #data {
+      font-size: 75px;
+    }
+  }
